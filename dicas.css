@@ -1,0 +1,34 @@
+* {
+    margin: 0px;/*tirar margem*/
+    padding: 0px;/*tirar espaçamento*/
+    transition: all 1s;/*todos os meus componentes terão transição*/
+    font-family: 'Roboto', sans-serif; /*mudar fonte*/
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-topo: #98C1A8;
+
+}
+
+header {
+    background-color: var(--cor-topo);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+header nav a{
+    text-decoration: none;/*tira a sublimação embaixo da escrita*/
+    color: var(--cor-preta);
+}
+header nav a:hover{
+    background-color: var(--cor-branca);/*quando eu passar o mouse sobre a palavra ela fique
+     grifada com outra cor*/
+    padding: 15px;/*espaçamento interno*/
+    color: var(--cor-branca); /*quando passar o mouse sobre a palavra a letra vai mudar de cor*/
+    border-radius: 20px;/*borda arredondada*/
+    /* font-weight: 700;-pra mudar na grossura da fonte */
+    /* font*weight: bold;-pra deixar a escrita em negrito*/
+}
