@@ -234,3 +234,29 @@ body .sacola-dica, .imagemdobrasil{
 }
 
 /*      Produtos gerais      */
+
+#main-produtosgerais{
+    padding: 25px;
+}
+
+#main-produtosgerais .descricaoProduto img{
+    width: 250px;
+}
+
+#main-produtosgerais .fileiras{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#main-produtosgerais .fileiras .fileiras1{
+    padding: 20px;
+    align-items: center;
+}
+
+#main-produtosgerais .fileiras a{
+    background-color: #678562;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+}
