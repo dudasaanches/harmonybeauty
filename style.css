@@ -57,16 +57,30 @@ main .imagem-dicas{
     padding: 20px;
 }
 
-#main-quemsomos .conheça .titulo{
+#main-quemsomos .conheca .titulo{
     text-align: center;
     padding: 25px;
     background-color: var(--cor-verdeescuro);
+    padding: 22px;
 }
 
-#main-quemsomos .conheça .escrita{
+#main-quemsomos .conheca .escrita{
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: var(--cor-topo);
     padding: 34px;
+    gap: 20px;
+}
+
+#main-quemsomos .portras h1{
+    background-color: var(--cor-verdeescuro);
+    color: var(--cor-branca);
+    padding: 8px;
+    border-radius: 20px; /*deixar as bordas redondinhas*/
+}
+
+#main-quemsomos .pessoas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
