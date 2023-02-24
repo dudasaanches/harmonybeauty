@@ -1,3 +1,15 @@
+:root{
+    --cor-topo: #98C1A8;
+    --cor-cabecalho: #98C1AB;
+    --cor-bloco: #D9D9D9;
+    --cor-dicas: #7C9B77;
+    --padding: 5px;
+    --cor-verdeescuro: #678562;
+    --cor-cinzinha: #D9D9D9;
+    --cor-verdinho: #21461B;
+    --cor-preta: black;
+}
+
 * {
     margin: 0px;/*tirar margem*/
     padding: 0px;/*tirar espaçamento*/
@@ -6,25 +18,9 @@
     box-sizing: border-box;
 }
 
-/* img {
-    max-width: 100%;
-} */
-
-:root{
-    --cor-topo: #98C1A8;
-    --cor-cabecalho: #98C1AB;
-    --cor-bloco: #D9D9D9;
-    --cor-dicas: #7C9B77;
-    --padding: 5px;
-    --cor-verdeescuro: #678562;
-    --cor-branca: white;
-    --cor-preta: black;
-}
-
-img {
+img{
     max-width: 100% !important;
 }
-
 
     header {
     background-color: var(--cor-topo);
@@ -34,6 +30,33 @@ img {
     padding: 20px;
     align-items: center;
 }
+
+/*---------------------------------------------NAJULIA--------------------------------------------------*/
+body .sacola-dica, .brasil{
+    text-align: center;
+}
+
+header .nav-dicas {
+    justify-content: end;
+    display: flex;
+    align-items: center;
+}
+
+header .nav-dicas a{
+    text-decoration: none;
+    color: var(--cor-verdinho);
+    padding: 15px;
+    border-radius: 20px;
+}
+
+header .nav-dicas a:hover{
+    background-color: var(--cor-dicas);
+    border-radius: 20px;
+    padding: 15px;
+    color: var(--cor-branca); 
+    border-radius: 20px;
+}
+
 
  main .h1-dicas{
     background-color:var(--cor-dicas) ;
@@ -56,27 +79,6 @@ main .manha, .noite,
     margin: 20px;
 }
 
-header .nav-dicas {
-    justify-content: end;
-    display: flex;
-    align-items: center;
-}
-
-header .nav-dicas a{
-    text-decoration: none;
-    color: var(--cor-preto);
-    padding: 15px;
-    border-radius: 20px;
-}
-
-header .nav-dicas a:hover{
-    background-color: var(--cor-dicas);
-    border-radius: 20px;
-    padding: 15px;
-    color: var(--cor-branca); 
-    border-radius: 20px;
-}
-
 footer{
     background-color: var(--cor-topo);
     padding: var(--padding);
@@ -94,13 +96,7 @@ footer .contate, .email,.telefone,
     margin: 9px;
 }
 
-
-body .sacola-dica, .imagemdobrasil{
-    
-    text-align: center;
-}
-
-/*            CARRINHO             */
+/*------------------------------SANCHES--------------------------------------*/
 .header-carrinho{
     background-color: var(--cor-cabecalho);
     padding: 15px;
@@ -174,9 +170,7 @@ body .sacola-dica, .imagemdobrasil{
     padding: 20px;
 }
 
-
-
-/*      QUEM SOMOS      */
+/*---------------------------------BRENDA--------------------------------------*/
 
 #header-quemsomos{
     background-color: var(--cor-topo);
@@ -235,6 +229,35 @@ body .sacola-dica, .imagemdobrasil{
     gap: 20px;
 }
 
+<<<<<<< HEAD
+/*      Produtos gerais      */
+
+#main-produtosgerais{
+    padding: 25px;
+}
+
+#main-produtosgerais .descricaoProduto img{
+    width: 250px;
+}
+
+#main-produtosgerais .fileiras{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#main-produtosgerais .fileiras .fileiras1{
+    padding: 20px;
+    align-items: center;
+}
+
+#main-produtosgerais .fileiras a{
+    background-color: #678562;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+}
+=======
 #main-quemsomos .pessoas .grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -243,6 +266,7 @@ body .sacola-dica, .imagemdobrasil{
     border-radius: 25px;
 }
 
+<<<<<<< HEAD
 /*      Produtos gerais      */
 <<<<<<< HEAD
     #header-produtosGerais{
@@ -286,3 +310,97 @@ body .sacola-dica, .imagemdobrasil{
     }
 =======
 >>>>>>> 4f8251a2232b13672c6261977f9992c674a00464
+=======
+/*------------------------------------lETICIA LINDA--------------------------------------------------*/
+
+.header-index{
+    background-color: var(--cor-topo);
+    display: flex;
+    justify-content: space-between; /*espaço entre a logo e a escrita*/
+    padding: 30px; /*espaçamento interno*/
+    align-items: center; /*alinhar a escrita no centro*/
+}
+
+.header-index nav a, .botaopromo{
+    text-decoration: none; /*tira a sublimação embaixo da escrita*/
+    color: var(--cor-preta); /*muda cor da letra*/
+    margin: 0px 16px;
+}
+
+.logo-index{
+    font-size: 30px;
+    color: var(--cor-cinzinha);
+    text-shadow: 3px 3px var(--cor-preta);
+}
+
+.header-index nav a{
+    background-color: var(--cor-verdeescuro);
+    color: var(--cor-cinzinha);
+    padding: 10px;
+    border-radius: 20px; /*deixar as bordas redondinhas*/
+}
+
+.promocao-index{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--cor-verdeescuro);
+    padding: 20px;
+}
+
+.promocao-index, .promo-index, .promo, .kit, .valor, .botaopromo{
+    text-align: center;
+    font-size: 40px;
+}
+
+.promo-index, .botaopromo{
+    padding: 35px;
+}
+
+.promo-index, .promo{
+    color: var(--cor-cinzinha);
+}
+
+.kit{
+    color: var(--cor-verdinho);
+    line-height: 56px;
+    padding: 15px 0px;
+}
+
+.valor{
+    color: var(--cor-verdinho);
+    padding: 0px 0px 50px;
+}
+
+.botaopromo{
+    background-color: var(--cor-cinzinha);
+    color: var(--cor-verdeescuro);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/*-------------------------------------SEGUNDA SECTION-----------------------------------------------*/
+
+.dicas-index{
+    background-color: var(--cor-topo);
+    display: flex;
+    justify-content: space-between; /*espaço entre a logo e a escrita*/
+    padding: 20px; /*espaçamento interno*/
+    align-items: center; /*alinhar a escrita no centro*/
+}
+
+.img-dicas-index{
+    padding: 30px;
+}
+
+.texto-dicas{
+    font-size: 35px;
+    text-align: center;
+    color: var(--cor-verdeescuro);
+    text-shadow: 2px 2px var(--cor-cinzinha);
+}
+
+.promocao-index {
+    display: flex;
+}
+>>>>>>> 76d4cdfee20c6c38b62f48440d3b9d1ac80f526b
+>>>>>>> 81b99113059a11f05808dd69187c22fc05d4ec84
