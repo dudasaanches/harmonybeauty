@@ -148,7 +148,7 @@ footer .cadastro{
     background-color: var(--cor-verdeescuro);
 }
 
-main .promocao-index, .promo-index{
+.promocao-index, .promo-index{
     display: flex;
     justify-content: space-between;
 }
