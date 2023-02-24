@@ -21,6 +21,9 @@
     --cor-preta: black;
 }
 
+img {
+    max-width: 100% !important;
+}
 
 
     header {
@@ -183,12 +186,12 @@ body .sacola-dica, .imagemdobrasil{
     align-items: center; /*alinhar a escrita no centro*/
 }
 
-#header-quemsomos nav a{
+#header-quemsomos .nav-qs a{
     text-decoration: none;
     color:var(--cor-preta); /*mudar a cor da letra*/
 }
 
-#header-quemsomos nav a:hover{
+#header-quemsomos .nav-qs a:hover{
     background-color: var(--cor-verdeescuro);
     color: var(--cor-branca);
     padding: 10px;
@@ -223,14 +226,25 @@ body .sacola-dica, .imagemdobrasil{
     color: var(--cor-branca);
     padding: 8px;
     border-radius: 20px; /*deixar as bordas redondinhas*/
+    margin-bottom: 25px;
 }
 
 #main-quemsomos .pessoas{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+#main-quemsomos .pessoas .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--cor-dicas);
+    margin-bottom: 20px;
+    border-radius: 25px;
 }
 
 /*      Produtos gerais      */
+<<<<<<< HEAD
     #header-produtosGerais{
         background-color: var(--cor-topo);
         display: grid;
@@ -270,3 +284,5 @@ body .sacola-dica, .imagemdobrasil{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
+=======
+>>>>>>> 4f8251a2232b13672c6261977f9992c674a00464
