@@ -142,6 +142,10 @@ body .sacola-dica, .imagemdobrasilSSSS{
     padding: 20px;
 }
 
+#main-quemsomos .conheca{
+    margin-bottom: 25px;
+}
+
 #main-quemsomos .conheca .titulo{
     text-align: center;
     padding: 25px;
@@ -169,7 +173,3 @@ body .sacola-dica, .imagemdobrasilSSSS{
     grid-template-columns: 1fr 1fr;
 }
 
-main {
-    min-height: calc(100vh - 183px
-    );
-}
