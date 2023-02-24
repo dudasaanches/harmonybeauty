@@ -237,13 +237,14 @@ body .sacola-dica, .imagemdobrasil{
 
 #main-quemsomos .pessoas .grid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     background-color: var(--cor-dicas);
     margin-bottom: 20px;
     border-radius: 25px;
     padding: 18px;
-    height: 260px;
+    height: 220px;
     left: 300px;
+    gap: 25px;
 }
 
 /*      Produtos gerais      */
