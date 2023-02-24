@@ -7,71 +7,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrinho</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
 </head>
 
 <body>
-    <header>
-        <figure>
-            <img src="../harmonybeauty/img/Logo.png" alt="">
-        </figure>
-        <p>Checkout seguro</p>
-        <h1>Harmony</h1>
-        <h2>Beauty</h2>
-        <p>Continuar comprando>></p>
-    </header>
-    <main>
-        <p>Carrinho>continuar comprando>pagar>pedido completo</p>
-        <section>
-            <div>
-                <figure>
-                    <img src="../harmonybeauty/img/localização.png" alt="">
-                </figure>
-                <p>Enviar para o Brasil</p>
-                <p>escolha</p>
-            </div>
-            <div>
-                <h3>Resumo de item (0)</h3>
-                <p>Todos</p>
-                <p>Artigos</p>
-                <p>Preço</p>
-                <p>Quan.</p>
-                <p>Total</p>
-            </div>
-            <div>
-                <figure>
-                    <img src="../harmonybeauty/img/sacola.png" alt="">
-                </figure>
-                <h4>SEU CARRINHO ESTÁ VAZIO!!</h4>
-                <button>COMPRE AGORA</button>
-        </section>
+    <header class="header-carrinho">
+        <img class="diminui" src="../harmonybeauty/img/logo2.png" alt="">
+        <img class="some" src="../harmonybeauty/img/escrita.png" alt="">
+        <div class="texto">
+            <p>Continuar comprando>></p>
         </div>
-        <section class="dupla">
-            <div>
-                <h3>Resumo Do Pedido</h3>
-                <h5>Subtotal</h5>
-                <p>R$0,00</p>
-                <button>COMPRE AGORA</button>
-                <p>Aplique um Código de cupom, pontos Harmony Beauty na próxima etapa.</p>
-            </div>
-            <div>
-                <h3>Pagamento</h3>
-                <figure>
-                    <img src="../harmonybeauty/img/formasdepagamentovolk.png" alt="">
-                </figure>
-            </div>
-        </section>
+    </header>
+
+    <main id="main-carrinho">
+        <div class="partedecima">
+            <p>Carrinho>continuar comprando>pagar>pedido completo</p>
+        </div>
+
+        <div class="carrinho">
+            <section class="parteum">
+                <div class="sacola">
+                    <div class="localizacao">
+                        <figure>
+                            <img src="../harmonybeauty/img/localização.png" alt="">
+                        </figure>
+                        <p>Enviar para o Brasil</p>
+                    </div>
+                    <p>escolha</p>
+                </div class="brenda">
+                <h3>Resumo de item (0)</h3>
+                <div class="tabela">
+                    <table>
+                        <tr>
+                            <td>Todos</td>
+                            <td>Artigos</td>
+                            <td>Preço</td>
+                            <td>Quan.</td>
+                            <td>Total</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="imagem">
+                    <a href="index.html">
+                        <img src="../harmonybeauty/img/compre-agora.png" alt="">
+                    </a>
+                     
+                </div>
+            </section>
+
+
+            <section class="dupla">
+                <div class="pedido">
+                    <h3>Resumo Do Pedido</h3>
+                    <h5>Subtotal</h5>
+                    <p>R$0,00</p>
+                    <button>COMPRE AGORA</button>
+                    <p>Aplique um Código de cupom, pontos Harmony Beauty na próxima etapa.</p>
+                </div>
+                <div class="pagamento">
+                    <h3>Pagamento</h3>
+                    <figure>
+                        <img src="../harmonybeauty/img/formasdepagamentovolk.png" alt="">
+                    </figure>
+                </div>
+            </section>
+        </div>
+
     </main>
     <footer>
-        <p>Sobre Nós</p>
-        <p>Cadastre-se para receber novidades e promoções exclusivas</p>
-        <p>Contate-nos</p>
-        <p>harmonybeauty@gmail.com</p>
-        <p>(12)99345-6789</p>
-        <figure>
+        <div class="esquerda">
+            <p>Sobre Nós</p>
+            <p>Cadastre-se para receber novidades e promoções exclusivas</p>
+        </div>
+        <div class="direita">
+            <p>Contate-nos</p>
+            <p>harmonybeauty@gmail.com</p>
+            <p>(12)99345-6789</p>
             <img src="../harmonybeauty/img/instagram.png" alt="">
             <img src="../harmonybeauty/img/twitter.png" alt="">
             <img src="../harmonybeauty/img/facebook.png" alt="">
-        </figure>
+        </div>
     </footer>
 </body>
 

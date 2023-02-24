@@ -1,3 +1,15 @@
+:root{
+    --cor-topo: #98C1A8;
+    --cor-cabecalho: #98C1AB;
+    --cor-bloco: #D9D9D9;
+    --cor-dicas: #7C9B77;
+    --padding: 5px;
+    --cor-verdeescuro: #678562;
+    --cor-cinzinha: #D9D9D9;
+    --cor-verdinho: #21461B;
+    --cor-preta: black;
+}
+
 * {
     margin: 0px;/*tirar margem*/
     padding: 0px;/*tirar espaçamento*/
@@ -6,26 +18,45 @@
     box-sizing: border-box;
 }
 
-:root {
-    --cor-topo: #98C1A8;
-    --cor-dicas: #7C9B77;
-   --padding: 5px;
-    --cor-verdeescuro: #678562;
-    --cor-branca: white;
-    --cor-cinzinha: #D9D9D9;
-    --cor-verdinho: #21461B;
+img{
+    max-width: 100% !important;
 }
-
 
     header {
     background-color: var(--cor-topo);
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
     justify-content: space-between;
     padding: 20px;
     align-items: center;
 }
 
 /*---------------------------------------------NAJULIA--------------------------------------------------*/
+body .sacola-dica, .brasil{
+    text-align: center;
+}
+
+header .nav-dicas {
+    justify-content: end;
+    display: flex;
+    align-items: center;
+}
+
+header .nav-dicas a{
+    text-decoration: none;
+    color: var(--cor-verdinho);
+    padding: 15px;
+    border-radius: 20px;
+}
+
+header .nav-dicas a:hover{
+    background-color: var(--cor-dicas);
+    border-radius: 20px;
+    padding: 15px;
+    color: var(--cor-branca); 
+    border-radius: 20px;
+}
+
 
  main .h1-dicas{
     background-color:var(--cor-dicas) ;
@@ -47,20 +78,6 @@ main .manha, .noite,
 .beberagua, .saudemental{
     margin: 20px;
 }
-header .nav-dicas a{
-    text-decoration: none;
-    color: var(--cor-preto);
-    padding: 15px;
-    border-radius: 20px;
-}
-
-header .nav-dicas a:hover{
-    background-color: var(--cor-dicas);
-    border-radius: 20px;
-    padding: 15px;
-    color: var(--cor-branca); 
-    border-radius: 20px;
-}
 
 footer{
     background-color: var(--cor-topo);
@@ -79,11 +96,81 @@ footer .contate, .email,.telefone,
     margin: 9px;
 }
 
-footer .cadastro{
-   
+/*------------------------------SANCHES--------------------------------------*/
+.header-carrinho{
+    background-color: var(--cor-cabecalho);
+    padding: 15px;
+    color: var(--cor-preta); 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
 }
 
-/* ------------------------------------------BRENDA----------------------------------------------------*/
+#main-carrinho {
+    padding: 20px;
+}
+
+#main-carrinho .partedecima{
+    text-align: center;
+    padding: 20px;
+}
+
+#main-carrinho .carrinho{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+#main-carrinho .carrinho .parteum .sacola{
+    display: flex;
+    justify-content: space-between;
+    background-color: #D9D9D9;
+    padding: 5px;
+}
+#main-carrinho .carrinho .parteum .sacola .localizacao{
+    display: flex;
+    justify-content: center;
+}
+
+#main-carrinho .carrinho .parteum table{
+    width: 100%;
+    height: 100%;
+}
+
+#main-carrinho .carrinho .parteum .imagem {
+    text-align: center;
+}
+
+#main-carrinho .carrinho .parteum .imagem img{
+    width: 280px;
+    padding: 5px;
+}
+
+#main-carrinho .carrinho .dupla{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+#main-carrinho .carrinho .dupla .pedido{
+    background-color: #D9D9D9;
+    padding: 20px;
+    text-align: center;
+}
+
+#main-carrinho .carrinho .dupla .pedido button{
+    background-color: #678562;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+}
+
+#main-carrinho .carrinho .dupla .pagamento{
+    background-color: #D9D9D9;
+    padding: 20px;
+}
+
+/*---------------------------------BRENDA--------------------------------------*/
 
 #header-quemsomos{
     background-color: var(--cor-topo);
@@ -93,12 +180,12 @@ footer .cadastro{
     align-items: center; /*alinhar a escrita no centro*/
 }
 
-#header-quemsomos nav a{
+#header-quemsomos .nav-qs a{
     text-decoration: none;
     color:var(--cor-preta); /*mudar a cor da letra*/
 }
 
-#header-quemsomos nav a:hover{
+#header-quemsomos .nav-qs a:hover{
     background-color: var(--cor-verdeescuro);
     color: var(--cor-branca);
     padding: 10px;
@@ -109,16 +196,45 @@ footer .cadastro{
     padding: 20px;
 }
 
-#main-quemsomos .conheça .titulo{
+#main-quemsomos .conheca{
+    margin-bottom: 25px;
+}
+
+#main-quemsomos .conheca .titulo{
     text-align: center;
     padding: 25px;
     background-color: var(--cor-verdeescuro);
+    padding: 22px;
 }
 
-#main-quemsomos .conheça .escrita{
+#main-quemsomos .conheca .escrita{
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: var(--cor-topo);
+    padding: 34px;
+    gap: 20px;
+}
+
+#main-quemsomos .portras h1{
+    background-color: var(--cor-verdeescuro);
+    color: var(--cor-branca);
+    padding: 8px;
+    border-radius: 20px; /*deixar as bordas redondinhas*/
+    margin-bottom: 25px;
+}
+
+#main-quemsomos .pessoas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+#main-quemsomos .pessoas .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--cor-dicas);
+    margin-bottom: 20px;
+    border-radius: 25px;
 }
 
 /*------------------------------------lETICIA LINDA--------------------------------------------------*/
@@ -127,7 +243,7 @@ footer .cadastro{
     background-color: var(--cor-topo);
     display: flex;
     justify-content: space-between; /*espaço entre a logo e a escrita*/
-    padding: 20px; /*espaçamento interno*/
+    padding: 30px; /*espaçamento interno*/
     align-items: center; /*alinhar a escrita no centro*/
 }
 
@@ -207,4 +323,8 @@ footer .cadastro{
     text-align: center;
     color: var(--cor-verdeescuro);
     text-shadow: 2px 2px var(--cor-cinzinha);
+}
+
+.promocao-index {
+    display: flex;
 }
