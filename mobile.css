@@ -30,3 +30,7 @@
         font-size: 12px;
     }
 }
+
+@media (max-width: 320px) {
+    .dicas
+}

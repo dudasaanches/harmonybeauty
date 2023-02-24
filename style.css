@@ -229,7 +229,6 @@ footer .contate, .email,.telefone,
     gap: 20px;
 }
 
-<<<<<<< HEAD
 /*      Produtos gerais      */
 
 #main-produtosgerais{
@@ -257,7 +256,7 @@ footer .contate, .email,.telefone,
     border: none;
     border-radius: 15px;
 }
-=======
+
 #main-quemsomos .pessoas .grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -266,9 +265,8 @@ footer .contate, .email,.telefone,
     border-radius: 25px;
 }
 
-<<<<<<< HEAD
 /*      Produtos gerais      */
-<<<<<<< HEAD
+
     #header-produtosGerais{
         background-color: var(--cor-topo);
         display: grid;
@@ -308,9 +306,7 @@ footer .contate, .email,.telefone,
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
-=======
->>>>>>> 4f8251a2232b13672c6261977f9992c674a00464
-=======
+
 /*------------------------------------lETICIA LINDA--------------------------------------------------*/
 
 .header-index{
@@ -402,5 +398,3 @@ footer .contate, .email,.telefone,
 .promocao-index {
     display: flex;
 }
->>>>>>> 76d4cdfee20c6c38b62f48440d3b9d1ac80f526b
->>>>>>> 81b99113059a11f05808dd69187c22fc05d4ec84
