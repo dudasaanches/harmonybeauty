@@ -16,6 +16,7 @@
 }
 
 
+
     header {
     background-color: var(--cor-topo);
     display: flex;
@@ -142,19 +143,34 @@ body .sacola-dica, .imagemdobrasilSSSS{
     padding: 20px;
 }
 
-#main-quemsomos .conheça .titulo{
+#main-quemsomos .conheca{
+    margin-bottom: 25px;
+}
+
+#main-quemsomos .conheca .titulo{
     text-align: center;
     padding: 25px;
     background-color: var(--cor-verdeescuro);
+    padding: 22px;
 }
 
-#main-quemsomos .conheça .escrita{
+#main-quemsomos .conheca .escrita{
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: var(--cor-topo);
+    padding: 34px;
+    gap: 20px;
 }
 
-main {
-    min-height: calc(100vh - 183px
-    );
+#main-quemsomos .portras h1{
+    background-color: var(--cor-verdeescuro);
+    color: var(--cor-branca);
+    padding: 8px;
+    border-radius: 20px; /*deixar as bordas redondinhas*/
 }
+
+#main-quemsomos .pessoas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
