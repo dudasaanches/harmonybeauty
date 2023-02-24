@@ -11,7 +11,7 @@
 
 }
 
-header {
+header .Dicas {
     background-color: var(--cor-topo);
     display: flex;
     justify-content: space-between;
@@ -19,32 +19,14 @@ header {
     align-items: center;
 }
 
-header nav a{
-    text-decoration: none;/*tira a sublimação embaixo da escrita*/
-    color: var(--cor-preta);
-}
-header nav a:hover{
-    background-color: var(--cor-branca);/*quando eu passar o mouse sobre a palavra ela fique
-     grifada com outra cor*/
-    padding: 15px;/*espaçamento interno*/
-    color: var(--cor-branca); /*quando passar o mouse sobre a palavra a letra vai mudar de cor*/
-    border-radius: 20px;/*borda arredondada*/
-    /* font-weight: 700;-pra mudar na grossura da fonte */
-    /* font*weight: bold;-pra deixar a escrita em negrito*/
+
+main.dicas{
+    margin: 20px;
+   
 }
 
-main #banner{
-    
-    height: calc(100vh - 116px); /*fazer com que a imagem preencha a tela toda*/ 
-    /*calc serve para realizar cálculos entre unidades de medida diferentes*/ 
-    background-repeat: no-repeat;
-    background-position: center center;/*centraliza os eixos x e y*/
-    background-size: cover;/*vai tentar preencher a tela toda*/
-    display: flex;/*torna o flexível*/
-    flex-direction: column;/*deixar a escrita em forma de coluna*/
-    justify-content: center;
-    align-items: center;
-    color: var(--cor-topo); /*mudar a cor da escrita*/
+main .imagem-dicas{
+    text-align: end;
 }
 
 /* brenda*/
