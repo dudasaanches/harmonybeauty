@@ -229,8 +229,9 @@ footer .contate, .email,.telefone,
     gap: 20px;
 }
 
-<<<<<<< HEAD
-/*      Produtos gerais      */
+
+
+/*---------------------------------LARA 1--------------------------------------*/
 
 #main-produtosgerais{
     padding: 25px;
@@ -257,7 +258,11 @@ footer .contate, .email,.telefone,
     border: none;
     border-radius: 15px;
 }
-=======
+
+#main-produtosgerais .fileiras a{
+    text-decoration: none;
+}
+
 #main-quemsomos .pessoas .grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -357,4 +362,3 @@ footer .contate, .email,.telefone,
 .promocao-index {
     display: flex;
 }
->>>>>>> 76d4cdfee20c6c38b62f48440d3b9d1ac80f526b
