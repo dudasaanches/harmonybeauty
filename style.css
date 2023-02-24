@@ -8,6 +8,8 @@
 
 :root {
     --cor-topo: #98C1A8;
+    --cor-verdeescuro: #678562;
+    --cor-branca: white;
 
 }
 
@@ -30,4 +32,40 @@ main .imagem-dicas{
 }
 
 /* brenda*/
+
+#header-quemsomos{
+    background-color: var(--cor-topo);
+    display: flex;
+    justify-content: space-between; /*espaço entre a logo e a escrita*/
+    padding: 20px; /*espaçamento interno*/
+    align-items: center; /*alinhar a escrita no centro*/
+}
+
+#header-quemsomos nav a{
+    text-decoration: none;
+    color:var(--cor-preta); /*mudar a cor da letra*/
+}
+
+#header-quemsomos nav a:hover{
+    background-color: var(--cor-verdeescuro);
+    color: var(--cor-branca);
+    padding: 10px;
+    border-radius: 20px; /*deixar as bordas redondinhas*/
+}
+
+#main-quemsomos{
+    padding: 20px;
+}
+
+#main-quemsomos .conheça .titulo{
+    text-align: center;
+    padding: 25px;
+    background-color: var(--cor-verdeescuro);
+}
+
+#main-quemsomos .conheça .escrita{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--cor-topo);
+}
 
