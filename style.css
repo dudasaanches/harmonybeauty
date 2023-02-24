@@ -23,6 +23,7 @@
     --cor-verdeescuro: #678562;
     --cor-branca: white;
     --cor-preta: black;
+    --cor-barradepesquisa: #DBDFDA;
 }
 
 header {
@@ -245,7 +246,7 @@ body .sacola-dica,
     grid-template-columns: 1fr 1fr;
 }
 
-/*---------------------------------LARA 1--------------------------------------*/
+/*---------------------------------LARA--------------------------------------*/
 #header-produtosGerais {
     background-color: var(--cor-topo);
     display: grid;
@@ -254,6 +255,34 @@ body .sacola-dica,
     padding: 20px;
     align-items: center;
 }
+
+#main-produtosgerais .pesquisa-produtosGerais #pesquisa{
+    background-color:var(--cor-barradepesquisa);
+    height: 50px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 40px;
+    border: 1px solid #678562;
+    padding: 0px 15px;
+}
+
+.pesquisa-produtosGerais {
+    background: #dbdfda;
+    width: 311px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 100px;
+}
+
+.pesquisa-produtosGerais input {
+
+}
+
+.pesquisa-produtosGerais 
+
 
 /*produtos diretos*/
 
