@@ -8,8 +8,9 @@
 
 :root {
     --cor-topo: #98C1A8;
+    --cor-bloco: #D9D9D9;
     --cor-dicas: #7C9B77;
-   --padding: 5px;
+    --padding: 5px;
     --cor-verdeescuro: #678562;
     --cor-branca: white;
 }
@@ -36,6 +37,38 @@ main.dicas{
 
 main .imagem-dicas{
     text-align: end;
+}
+/*            CARRINHO             */
+
+#main-carrinho .partedecima{
+    text-align: center;
+    padding: 20px;
+}
+
+#main-carrinho .carrinho{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+
+#main-carrinho .carrinho .parteum .sacola{
+    display: flex;
+    justify-content: space-between;
+    background-color: #D9D9D9;
+    padding: 8px;
+}
+
+#main-carrinho .carrinho .parteum table{
+    width: 100%;
+    height: 100%;
+}
+
+#main-carrinho .carrinho .parteum .imagem {
+    text-align: center;
+}
+
+#main-carrinho .carrinho .parteum .imagem img{
+    width: 210px;
 }
 
 main .manha, .noite,
@@ -75,9 +108,12 @@ footer .contate, .email,.telefone,
     margin: 9px;
 }
 
+<<<<<<< HEAD
 body .sacola-dica, .imagemdobrasilSSSS{
     width: 45px;
 }
+=======
+>>>>>>> 4b4fc60d8aa4234658d4d7df47b4fcbdf22590b7
 
 #header-quemsomos{
     background-color: var(--cor-topo);
@@ -115,3 +151,6 @@ body .sacola-dica, .imagemdobrasilSSSS{
     background-color: var(--cor-topo);
 }
 
+main {
+    min-height: calc(100vh - 183px);
+}
