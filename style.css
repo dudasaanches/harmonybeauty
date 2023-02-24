@@ -8,10 +8,13 @@
 
 :root {
     --cor-topo: #98C1A8;
+    --cor-dicas: #7C9B77;
+   --padding: 5px;
 
 }
 
-header .Dicas {
+
+    header {
     background-color: var(--cor-topo);
     display: flex;
     justify-content: space-between;
@@ -19,6 +22,11 @@ header .Dicas {
     align-items: center;
 }
 
+ main .h1-dicas{
+    background-color:var(--cor-dicas) ;
+    text-align: center;
+    padding: 30px;
+ }
 
 main.dicas{
     margin: 20px;
@@ -27,4 +35,48 @@ main.dicas{
 
 main .imagem-dicas{
     text-align: end;
+}
+
+
+main .manha, .noite,
+.passo-a-passo,.mascarafacial,
+.beberagua, .saudemental{
+    margin: 20px;
+}
+header .nav-dicas a{
+    text-decoration: none;
+    color: var(--cor-preto);
+    padding: 15px;
+    color: var(--cor-branca); 
+    border-radius: 20px;
+}
+
+header .nav-dicas a:hover{
+    background-color: var(--cor-dicas);
+    border-radius: 20px;
+    padding: 15px;
+    color: var(--cor-branca); 
+    border-radius: 20px;
+}
+
+footer{
+    background-color: var(--cor-topo);
+    padding: var(--padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .contato{
+    text-align: end;
+}
+
+footer .contate, .email,.telefone,
+.imagens{
+    margin: 9px;
+}
+
+footer .cadastro{
+   
+   
 }
