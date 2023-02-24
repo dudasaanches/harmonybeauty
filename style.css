@@ -23,6 +23,8 @@
     align-items: center;
 }
 
+/*---------------------------------------------NAJULIA--------------------------------------------------*/
+
  main .h1-dicas{
     background-color:var(--cor-dicas) ;
     text-align: center;
@@ -77,8 +79,9 @@ footer .contate, .email,.telefone,
 
 footer .cadastro{
    
-   
 }
+
+/* ------------------------------------------BRENDA----------------------------------------------------*/
 
 #header-quemsomos{
     background-color: var(--cor-topo);
@@ -115,4 +118,39 @@ footer .cadastro{
     grid-template-columns: 1fr 1fr;
     background-color: var(--cor-topo);
 }
+
+/*------------------------------------lETICIA LINDA--------------------------------------------------*/
+
+.header-index{
+    background-color: var(--cor-topo);
+    display: flex;
+    justify-content: space-between; /*espaço entre a logo e a escrita*/
+    padding: 20px; /*espaçamento interno*/
+    align-items: center; /*alinhar a escrita no centro*/
+}
+
+.header-index nav a{
+    text-decoration: none; /*tira a sublimação embaixo da escrita*/
+    color: var(--cor-preta); /*muda cor da letra*/
+    margin: 0px 16px;
+}
+
+.header-index nav a{
+    background-color: var(--cor-verdeescuro);
+    color: var(--cor-branca);
+    padding: 10px;
+    border-radius: 20px; /*deixar as bordas redondinhas*/
+}
+
+.promocao-index{
+    display: block;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--cor-verdeescuro);
+}
+
+main .promocao-index, .promo-index{
+    display: flex;
+    justify-content: space-between;
+}
+
 
