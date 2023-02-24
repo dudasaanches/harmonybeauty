@@ -33,16 +33,11 @@ header nav a:hover{
     /* font*weight: bold;-pra deixar a escrita em negrito*/
 }
 
-main #banner{
-    
-    height: calc(100vh - 116px); /*fazer com que a imagem preencha a tela toda*/ 
-    /*calc serve para realizar cálculos entre unidades de medida diferentes*/ 
-    background-repeat: no-repeat;
-    background-position: center center;/*centraliza os eixos x e y*/
-    background-size: cover;/*vai tentar preencher a tela toda*/
-    display: flex;/*torna o flexível*/
-    flex-direction: column;/*deixar a escrita em forma de coluna*/
-    justify-content: center;
-    align-items: center;
-    color: var(--cor-topo); /*mudar a cor da escrita*/
+main.main-naju{
+    margin: 20px;
+   
+}
+
+main .imagem-naju{
+    text-align: end;
 }
