@@ -21,6 +21,9 @@
     --cor-preta: black;
 }
 
+img {
+    max-width: 100% !important;
+}
 
 
     header {
@@ -183,12 +186,12 @@ body .sacola-dica, .imagemdobrasil{
     align-items: center; /*alinhar a escrita no centro*/
 }
 
-#header-quemsomos nav a{
+#header-quemsomos .nav-qs a{
     text-decoration: none;
     color:var(--cor-preta); /*mudar a cor da letra*/
 }
 
-#header-quemsomos nav a:hover{
+#header-quemsomos .nav-qs a:hover{
     background-color: var(--cor-verdeescuro);
     color: var(--cor-branca);
     padding: 10px;
@@ -223,63 +226,13 @@ body .sacola-dica, .imagemdobrasil{
     color: var(--cor-branca);
     padding: 8px;
     border-radius: 20px; /*deixar as bordas redondinhas*/
+    margin-bottom: 25px;
 }
 
 #main-quemsomos .pessoas{
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
-
-<<<<<<< HEAD
-
-
-/*---------------------------------LARA 1--------------------------------------*/
-=======
-/*      Produtos gerais      */
-    #header-produtosGerais{
-        background-color: var(--cor-topo);
-        display: grid;
-        grid-template-columns: 1fr 3fr;
-        justify-content: space-between;
-        padding: 20px;
-        align-items: center;
-    }
->>>>>>> 728894aacf327bab1aa5c106c2b7c858cfc15142
-
-    /*produtos diretos*/   
-
-
-    header #header-produtodireto{
-        justify-content: end;
-        display: flex;
-        align-items: center;
-    }
-     
-    header #header-produtodireto a:hover{
-        background-color: var(--cor-dicas);
-        border-radius: 20px;
-        padding: 15px;
-        color: var(--cor-branca); 
-        border-radius: 20px;
-    }
-
-    main .imagensEdescricao{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        align-items: center;
-    }
-
-<<<<<<< HEAD
-#main-produtosgerais .fileiras a{
-    background-color: #678562;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 15px;
-}
-
-#main-produtosgerais .fileiras a{
-    text-decoration: none;
+    gap: 20px;
 }
 
 #main-quemsomos .pessoas .grid{
@@ -293,106 +246,5 @@ body .sacola-dica, .imagemdobrasil{
     left: 300px;
     gap: 25px;
 }
-=======
-    main .descricaoEpreco{
-       text-align: center;
-    }
->>>>>>> 728894aacf327bab1aa5c106c2b7c858cfc15142
 
-    main .button-compra{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    main .sugestoes{
-        background-color: var(--cor-verdeescuro);
-        padding: 20px;
-    }
-
-    main .sugestoesdiv{
-        margin: 15px;
-    }
- main .produto01, .produto02, .produto03,
- .produto04{
-    margin: 20px;
- }
-
-<<<<<<< HEAD
-.logo-index{
-    font-size: 30px;
-    color: var(--cor-cinzinha);
-    text-shadow: 3px 3px var(--cor-preta);
-}
-
-.header-index nav a{
-    background-color: var(--cor-verdeescuro);
-    color: var(--cor-cinzinha);
-    padding: 10px;
-    border-radius: 20px; /*deixar as bordas redondinhas*/
-}
-
-.promocao-index{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: var(--cor-verdeescuro);
-    padding: 20px;
-}
-
-.promocao-index, .promo-index, .promo, .kit, .valor, .botaopromo{
-    text-align: center;
-    font-size: 40px;
-}
-
-.promo-index, .botaopromo{
-    padding: 35px;
-}
-
-.promo-index, .promo{
-    color: var(--cor-cinzinha);
-}
-
-.kit{
-    color: var(--cor-verdinho);
-    line-height: 56px;
-    padding: 15px 0px;
-}
-
-.valor{
-    color: var(--cor-verdinho);
-    padding: 0px 0px 50px;
-}
-
-.botaopromo{
-    background-color: var(--cor-cinzinha);
-    color: var(--cor-verdeescuro);
-    padding: 10px;
-    border-radius: 20px;
-}
-
-/*-------------------------------------SEGUNDA SECTION-----------------------------------------------*/
-
-.dicas-index{
-    background-color: var(--cor-topo);
-    display: flex;
-    justify-content: space-between; /*espaço entre a logo e a escrita*/
-    padding: 20px; /*espaçamento interno*/
-    align-items: center; /*alinhar a escrita no centro*/
-}
-
-.img-dicas-index{
-    padding: 30px;
-}
-
-.texto-dicas{
-    font-size: 35px;
-    text-align: center;
-    color: var(--cor-verdeescuro);
-    text-shadow: 2px 2px var(--cor-cinzinha);
-}
-
-.promocao-index {
-    display: flex;
-}
-=======
- 
->>>>>>> 728894aacf327bab1aa5c106c2b7c858cfc15142
+/*      Produtos gerais      */
