@@ -241,6 +241,9 @@ body .sacola-dica, .imagemdobrasil{
     background-color: var(--cor-dicas);
     margin-bottom: 20px;
     border-radius: 25px;
+    padding: 18px;
+    height: 260px;
+    left: 300px;
 }
 
 /*      Produtos gerais      */
