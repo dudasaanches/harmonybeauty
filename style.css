@@ -67,5 +67,6 @@ main .imagem-dicas{
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: var(--cor-topo);
+    padding: 34px;
 }
 
