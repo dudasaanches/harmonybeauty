@@ -233,3 +233,12 @@ body .sacola-dica, .imagemdobrasil{
     grid-template-columns: 1fr 1fr;
 }
 
+/*      Produtos gerais      */
+    #header-produtosGerais{
+        background-color: var(--cor-topo);
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        justify-content: space-between;
+        padding: 20px;
+        align-items: center;
+    }
