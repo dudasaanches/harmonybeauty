@@ -21,6 +21,9 @@
     --cor-preta: black;
 }
 
+img {
+    max-width: 100% !important;
+}
 
 
     header {
