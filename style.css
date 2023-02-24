@@ -12,6 +12,8 @@
    --padding: 5px;
     --cor-verdeescuro: #678562;
     --cor-branca: white;
+    --cor-cinzinha: #D9D9D9;
+    --cor-verdinho: #21461B;
 }
 
 
@@ -129,26 +131,80 @@ footer .cadastro{
     align-items: center; /*alinhar a escrita no centro*/
 }
 
-.header-index nav a{
+.header-index nav a, .botaopromo{
     text-decoration: none; /*tira a sublimação embaixo da escrita*/
     color: var(--cor-preta); /*muda cor da letra*/
     margin: 0px 16px;
 }
 
+.logo-index{
+    font-size: 30px;
+    color: var(--cor-cinzinha);
+    text-shadow: 3px 3px var(--cor-preta);
+}
+
 .header-index nav a{
     background-color: var(--cor-verdeescuro);
-    color: var(--cor-branca);
+    color: var(--cor-cinzinha);
     padding: 10px;
     border-radius: 20px; /*deixar as bordas redondinhas*/
 }
 
 .promocao-index{
-    display: block;
+    display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: var(--cor-verdeescuro);
+    padding: 20px;
 }
 
-.promocao-index, .promo-index{
+.promocao-index, .promo-index, .promo, .kit, .valor, .botaopromo{
+    text-align: center;
+    font-size: 40px;
+}
+
+.promo-index, .botaopromo{
+    padding: 35px;
+}
+
+.promo-index, .promo{
+    color: var(--cor-cinzinha);
+}
+
+.kit{
+    color: var(--cor-verdinho);
+    line-height: 56px;
+    padding: 15px 0px;
+}
+
+.valor{
+    color: var(--cor-verdinho);
+    padding: 0px 0px 50px;
+}
+
+.botaopromo{
+    background-color: var(--cor-cinzinha);
+    color: var(--cor-verdeescuro);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/*-------------------------------------SEGUNDA SECTION-----------------------------------------------*/
+
+.dicas-index{
+    background-color: var(--cor-topo);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /*espaço entre a logo e a escrita*/
+    padding: 20px; /*espaçamento interno*/
+    align-items: center; /*alinhar a escrita no centro*/
+}
+
+.img-dicas-index{
+    padding: 30px;
+}
+
+.texto-dicas{
+    font-size: 35px;
+    text-align: center;
+    color: var(--cor-verdeescuro);
+    text-shadow: 2px 2px var(--cor-cinzinha);
 }
