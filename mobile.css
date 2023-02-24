@@ -31,6 +31,45 @@
     }
 }
 
+<<<<<<< HEAD
 @media (max-width: 320px) {
     .dicas
+=======
+@media (max-width: 853px) {
+    .brasil {
+        display: none;
+    }
+
+    header.dicas figure img {
+        width: 180px;
+    }
+    
+    header.dicas{
+        grid-template-columns: 1fr;
+    }
+
+    header.dicas figure {
+        text-align: center;
+    }
+
+    header .nav-dicas {
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 569px) {
+    main .imagem-dicas  img{
+        width: 100%;
+    }
+}
+
+
+@media (max-width:460px) {
+    header .nav-dicas {
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+>>>>>>> b3c635aee6908436091a872baa9643666d4b2e09
 }

@@ -1,28 +1,31 @@
-:root{
+* {
+    margin: 0px;
+    /*tirar margem*/
+    padding: 0px;
+    /*tirar espaçamento*/
+    transition: all 1s;
+    /*todos os meus componentes terão transição*/
+    font-family: 'Roboto', sans-serif;
+    /*mudar fonte*/
+    box-sizing: border-box;
+}
+
+/* img {
+    max-width: 100%;
+} */
+
+:root {
     --cor-topo: #98C1A8;
     --cor-cabecalho: #98C1AB;
     --cor-bloco: #D9D9D9;
     --cor-dicas: #7C9B77;
     --padding: 5px;
     --cor-verdeescuro: #678562;
-    --cor-cinzinha: #D9D9D9;
-    --cor-verdinho: #21461B;
+    --cor-branca: white;
     --cor-preta: black;
 }
 
-* {
-    margin: 0px;/*tirar margem*/
-    padding: 0px;/*tirar espaçamento*/
-    transition: all 1s;/*todos os meus componentes terão transição*/
-    font-family: 'Roboto', sans-serif; /*mudar fonte*/
-    box-sizing: border-box;
-}
-
-img{
-    max-width: 100% !important;
-}
-
-    header {
+header {
     background-color: var(--cor-topo);
     display: grid;
     grid-template-columns: 1fr 3fr;
@@ -31,9 +34,28 @@ img{
     align-items: center;
 }
 
-/*---------------------------------------------NAJULIA--------------------------------------------------*/
-body .sacola-dica, .brasil{
+main .h1-dicas {
+    background-color: var(--cor-dicas);
     text-align: center;
+    padding: 30px;
+}
+
+main.dicas {
+    margin: 20px;
+
+}
+
+main .imagem-dicas {
+    text-align: end;
+}
+
+main .manha,
+.noite,
+.passo-a-passo,
+.mascarafacial,
+.beberagua,
+.saudemental {
+    margin: 20px;
 }
 
 header .nav-dicas {
@@ -43,43 +65,25 @@ header .nav-dicas {
 }
 
 header .nav-dicas a{
+    font-size: 25px;
+}
+    
+header .nav-dicas a {
     text-decoration: none;
-    color: var(--cor-verdinho);
+    color: var(--cor-preto);
     padding: 15px;
     border-radius: 20px;
 }
 
-header .nav-dicas a:hover{
+header .nav-dicas a:hover {
     background-color: var(--cor-dicas);
     border-radius: 20px;
     padding: 15px;
-    color: var(--cor-branca); 
+    color: var(--cor-branca);
     border-radius: 20px;
 }
 
-
- main .h1-dicas{
-    background-color:var(--cor-dicas) ;
-    text-align: center;
-    padding: 30px;
- }
-
-main.dicas{
-    margin: 20px;
-   
-}
-
-main .imagem-dicas{
-    text-align: end;
-}
-
-main .manha, .noite,
-.passo-a-passo,.mascarafacial,
-.beberagua, .saudemental{
-    margin: 20px;
-}
-
-footer{
+footer {
     background-color: var(--cor-topo);
     padding: var(--padding);
     display: flex;
@@ -87,20 +91,29 @@ footer{
     justify-content: space-between;
 }
 
-footer .contato{
+footer .contato {
     text-align: end;
 }
 
-footer .contate, .email,.telefone,
-.imagens{
+footer .contate,
+.email,
+.telefone,
+.imagens {
     margin: 9px;
 }
 
-/*------------------------------SANCHES--------------------------------------*/
-.header-carrinho{
+/*-----------------------------------------------SANCHES-----------------------------------------------------*/
+
+.header-carrinho
+body .sacola-dica, .imagemdobrasil {
+    text-align: center;
+}
+
+/*            CARRINHO             */
+.header-carrinho {
     background-color: var(--cor-cabecalho);
     padding: 15px;
-    color: var(--cor-preta); 
+    color: var(--cor-preta);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr
 }
@@ -109,29 +122,30 @@ footer .contate, .email,.telefone,
     padding: 20px;
 }
 
-#main-carrinho .partedecima{
+#main-carrinho .partedecima {
     text-align: center;
     padding: 20px;
 }
 
-#main-carrinho .carrinho{
+#main-carrinho .carrinho {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 20px;
 }
 
-#main-carrinho .carrinho .parteum .sacola{
+#main-carrinho .carrinho .parteum .sacola {
     display: flex;
     justify-content: space-between;
     background-color: #D9D9D9;
     padding: 5px;
 }
-#main-carrinho .carrinho .parteum .sacola .localizacao{
+
+#main-carrinho .carrinho .parteum .sacola .localizacao {
     display: flex;
     justify-content: center;
 }
 
-#main-carrinho .carrinho .parteum table{
+#main-carrinho .carrinho .parteum table {
     width: 100%;
     height: 100%;
 }
@@ -140,24 +154,24 @@ footer .contate, .email,.telefone,
     text-align: center;
 }
 
-#main-carrinho .carrinho .parteum .imagem img{
+#main-carrinho .carrinho .parteum .imagem img {
     width: 280px;
     padding: 5px;
 }
 
-#main-carrinho .carrinho .dupla{
+#main-carrinho .carrinho .dupla {
     display: grid;
     grid-template-rows: 1fr 1fr;
     gap: 20px;
 }
 
-#main-carrinho .carrinho .dupla .pedido{
+#main-carrinho .carrinho .dupla .pedido {
     background-color: #D9D9D9;
     padding: 20px;
     text-align: center;
 }
 
-#main-carrinho .carrinho .dupla .pedido button{
+#main-carrinho .carrinho .dupla .pedido button {
     background-color: #678562;
     color: #fff;
     padding: 10px 20px;
@@ -165,49 +179,56 @@ footer .contate, .email,.telefone,
     border-radius: 15px;
 }
 
-#main-carrinho .carrinho .dupla .pagamento{
+#main-carrinho .carrinho .dupla .pagamento {
     background-color: #D9D9D9;
     padding: 20px;
 }
 
-/*---------------------------------BRENDA--------------------------------------*/
+/*---------------------------------------------BRENDA-------------------------------------------*/
 
-#header-quemsomos{
+/*      QUEM SOMOS      */
+
+#header-quemsomos {
     background-color: var(--cor-topo);
     display: flex;
-    justify-content: space-between; /*espaço entre a logo e a escrita*/
-    padding: 20px; /*espaçamento interno*/
-    align-items: center; /*alinhar a escrita no centro*/
+    justify-content: space-between;
+    /*espaço entre a logo e a escrita*/
+    padding: 20px;
+    /*espaçamento interno*/
+    align-items: center;
+    /*alinhar a escrita no centro*/
 }
 
-#header-quemsomos .nav-qs a{
+#header-quemsomos nav a {
     text-decoration: none;
-    color:var(--cor-preta); /*mudar a cor da letra*/
+    color: var(--cor-preta);
+    /*mudar a cor da letra*/
 }
 
-#header-quemsomos .nav-qs a:hover{
+#header-quemsomos nav a:hover {
     background-color: var(--cor-verdeescuro);
     color: var(--cor-branca);
     padding: 10px;
-    border-radius: 20px; /*deixar as bordas redondinhas*/
+    border-radius: 20px;
+    /*deixar as bordas redondinhas*/
 }
 
-#main-quemsomos{
+#main-quemsomos {
     padding: 20px;
 }
 
-#main-quemsomos .conheca{
+#main-quemsomos .conheca {
     margin-bottom: 25px;
 }
 
-#main-quemsomos .conheca .titulo{
+#main-quemsomos .conheca .titulo {
     text-align: center;
     padding: 25px;
     background-color: var(--cor-verdeescuro);
     padding: 22px;
 }
 
-#main-quemsomos .conheca .escrita{
+#main-quemsomos .conheca .escrita {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: var(--cor-topo);
@@ -215,20 +236,20 @@ footer .contate, .email,.telefone,
     gap: 20px;
 }
 
-#main-quemsomos .portras h1{
+#main-quemsomos .portras h1 {
     background-color: var(--cor-verdeescuro);
     color: var(--cor-branca);
     padding: 8px;
-    border-radius: 20px; /*deixar as bordas redondinhas*/
-    margin-bottom: 25px;
+    border-radius: 20px;
+    /*deixar as bordas redondinhas*/
 }
 
-#main-quemsomos .pessoas{
+#main-quemsomos .pessoas {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
 }
 
+<<<<<<< HEAD
 /*      Produtos gerais      */
 
 #main-produtosgerais{
@@ -267,6 +288,12 @@ footer .contate, .email,.telefone,
 
 /*      Produtos gerais      */
 
+=======
+/*---------------------------------LARA 1--------------------------------------*/
+
+
+/*      Produtos gerais      */
+>>>>>>> b3c635aee6908436091a872baa9643666d4b2e09
     #header-produtosGerais{
         background-color: var(--cor-topo);
         display: grid;
@@ -276,125 +303,252 @@ footer .contate, .email,.telefone,
         align-items: center;
     }
 
-    /*produtos diretos*/
+#header-produtosGerais {
+    background-color: var(--cor-topo);
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
 
-    header #header-produtodireto{
-        justify-content: end;
-        display: flex;
-        align-items: center;
-    }
-     
-    header #header-produtodireto a:hover{
-        background-color: var(--cor-dicas);
-        border-radius: 20px;
-        padding: 15px;
-        color: var(--cor-branca); 
-        border-radius: 20px;
-    }
 
-    main .imagensEdescricao{
+/*produtos diretos*/
+
+
+header #header-produtodireto {
+    justify-content: end;
+    display: flex;
+    align-items: center;
+}
+
+main .imagensEdescricao{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         align-items: center;
-    }
+}
 
-    main .descricaoEpreco{
-       text-align: center;
-    }
+main .descricaoEpreco{
+        text-align: center;
+}
+
+#main-produtosgerais .fileiras a{
+
+    border-radius: 20px;
+    padding: 15px;
+    color: var(--cor-branca);
+    border-radius: 20px;
+}
+
+main .imagensEdescricao {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+#main-produtosgerais .fileiras a {
+
+    background-color: #678562;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+#main-produtosgerais .fileiras a {
+    text-decoration: none;
+}
+
+#main-quemsomos .pessoas .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--cor-dicas);
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
 
     main .button-compra{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
+<<<<<<< HEAD
 
 /*------------------------------------lETICIA LINDA--------------------------------------------------*/
+=======
+>>>>>>> b3c635aee6908436091a872baa9643666d4b2e09
 
-.header-index{
-    background-color: var(--cor-topo);
-    display: flex;
-    justify-content: space-between; /*espaço entre a logo e a escrita*/
-    padding: 30px; /*espaçamento interno*/
-    align-items: center; /*alinhar a escrita no centro*/
+
+main .descricaoEpreco {
+    text-align: center;
 }
 
-.header-index nav a, .botaopromo{
-    text-decoration: none; /*tira a sublimação embaixo da escrita*/
-    color: var(--cor-preta); /*muda cor da letra*/
-    margin: 0px 16px;
+main .button-compra {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-.logo-index{
+main .sugestoes {
+    background-color: var(--cor-verdeescuro);
+    padding: 20px;
+}
+
+main .sugestoesdiv {
+    margin: 15px;
+}
+
+main .produto01,
+.produto02,
+.produto03,
+.produto04 {
+    margin: 20px;
+}
+
+
+.logo-index {
     font-size: 30px;
-    color: var(--cor-cinzinha);
+    color: var(--cor-bloco);
     text-shadow: 3px 3px var(--cor-preta);
 }
 
-.header-index nav a{
+.header-index nav a {
     background-color: var(--cor-verdeescuro);
-    color: var(--cor-cinzinha);
+    color: var(--cor-bloco);
     padding: 10px;
-    border-radius: 20px; /*deixar as bordas redondinhas*/
+    border-radius: 20px;
 }
 
-.promocao-index{
+.promocao-index {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: var(--cor-verdeescuro);
     padding: 20px;
 }
 
-.promocao-index, .promo-index, .promo, .kit, .valor, .botaopromo{
+.promocao-index,
+.promo-index,
+.promo,
+.kit,
+.valor,
+.botaopromo {
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
 }
 
-.promo-index, .botaopromo{
+.promo-index,
+.botaopromo {
     padding: 35px;
 }
 
-.promo-index, .promo{
-    color: var(--cor-cinzinha);
+.promo-index,
+.promo {
+    color: var(--cor-bloco);
 }
 
-.kit{
+.kit {
     color: var(--cor-verdinho);
     line-height: 56px;
     padding: 15px 0px;
 }
 
-.valor{
+.valor {
     color: var(--cor-verdinho);
     padding: 0px 0px 50px;
 }
 
-.botaopromo{
-    background-color: var(--cor-cinzinha);
+.botaopromo {
+    background-color: var(--cor-bloco);
     color: var(--cor-verdeescuro);
     padding: 10px;
     border-radius: 20px;
 }
 
-/*-------------------------------------SEGUNDA SECTION-----------------------------------------------*/
+/*-----------------------------------SEGUNDA SECTION - LETICIA-----------------------------------------------*/
 
 .dicas-index{
     background-color: var(--cor-topo);
     display: flex;
-    justify-content: space-between; /*espaço entre a logo e a escrita*/
-    padding: 20px; /*espaçamento interno*/
-    align-items: center; /*alinhar a escrita no centro*/
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    padding: 20px;
+    align-items: center;
 }
 
-.img-dicas-index{
+.img-dicas-index {
     padding: 30px;
 }
 
-.texto-dicas{
+.texto-dicas {
     font-size: 35px;
     text-align: center;
     color: var(--cor-verdeescuro);
-    text-shadow: 2px 2px var(--cor-cinzinha);
+    text-shadow: 3px 3px var(--cor-bloco);
 }
 
 .promocao-index {
     display: flex;
+<<<<<<< HEAD
 }
+=======
+    justify-content: space-around;
+}
+
+/*---------------------------------------TERCEIRA SECTION-LETICIA--------------------------------------------*/
+
+.produtos-index{
+    background-color: var(--cor-branca);
+    display: block;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.titulo-produtos{
+    text-align: center;
+    font-size: 40px;
+    color: var(--cor-verdeescuro);
+    text-shadow: 2px 2px var(black);
+}
+
+.produtos2{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*---------------------------------------FOOTER-LETICIA------------------------------------------------------*/
+
+.footer-index{
+    background-color: var(--cor-topo);
+    padding: var(--padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.cadastro-index{
+    text-align: end;
+}
+
+.contato-index, .comunicacao-index{
+    margin: 9px;
+}
+
+.fileiras {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.fileiras .produtos-fileiras {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    text-align: center;
+}
+
+.fileiras .produtos-fileiras img {
+    max-width: 100%;
+}
+>>>>>>> b3c635aee6908436091a872baa9643666d4b2e09
