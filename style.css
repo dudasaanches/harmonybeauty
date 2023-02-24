@@ -361,13 +361,13 @@ main .produto01,
 
 .logo-index {
     font-size: 30px;
-    color: var(--cor-cinzinha);
+    color: var(--cor-bloco);
     text-shadow: 3px 3px var(--cor-preta);
 }
 
 .header-index nav a {
     background-color: var(--cor-verdeescuro);
-    color: var(--cor-cinzinha);
+    color: var(--cor-bloco);
     padding: 10px;
     border-radius: 20px;
 }
@@ -396,7 +396,7 @@ main .produto01,
 
 .promo-index,
 .promo {
-    color: var(--cor-cinzinha);
+    color: var(--cor-bloco);
 }
 
 .kit {
@@ -411,7 +411,7 @@ main .produto01,
 }
 
 .botaopromo {
-    background-color: var(--cor-cinzinha);
+    background-color: var(--cor-bloco);
     color: var(--cor-verdeescuro);
     padding: 10px;
     border-radius: 20px;
@@ -437,7 +437,7 @@ main .produto01,
     font-size: 35px;
     text-align: center;
     color: var(--cor-verdeescuro);
-    text-shadow: 2px 2px var(--cor-cinzinha);
+    text-shadow: 3px 3px var(--cor-bloco);
 }
 
 .promocao-index {
