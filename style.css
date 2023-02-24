@@ -230,11 +230,8 @@ body .sacola-dica, .imagemdobrasil{
     grid-template-columns: 1fr 1fr;
 }
 
-<<<<<<< HEAD
-
-
 /*---------------------------------LARA 1--------------------------------------*/
-=======
+
 /*      Produtos gerais      */
     #header-produtosGerais{
         background-color: var(--cor-topo);
@@ -244,7 +241,6 @@ body .sacola-dica, .imagemdobrasil{
         padding: 20px;
         align-items: center;
     }
->>>>>>> 728894aacf327bab1aa5c106c2b7c858cfc15142
 
     /*produtos diretos*/   
 
@@ -267,9 +263,15 @@ body .sacola-dica, .imagemdobrasil{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         align-items: center;
+
+    
     }
 
-<<<<<<< HEAD
+    main .descricaoEpreco{
+        text-align: center;
+    }
+
+
 #main-produtosgerais .fileiras a{
     background-color: #678562;
     color: #fff;
@@ -289,12 +291,6 @@ body .sacola-dica, .imagemdobrasil{
     margin-bottom: 20px;
     border-radius: 25px;
 }
-=======
-    main .descricaoEpreco{
-       text-align: center;
-    }
->>>>>>> 728894aacf327bab1aa5c106c2b7c858cfc15142
-
     main .button-compra{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -313,7 +309,7 @@ body .sacola-dica, .imagemdobrasil{
     margin: 20px;
  }
 
-<<<<<<< HEAD
+
 .logo-index{
     font-size: 30px;
     color: var(--cor-cinzinha);
@@ -389,6 +385,3 @@ body .sacola-dica, .imagemdobrasil{
 .promocao-index {
     display: flex;
 }
-=======
- 
->>>>>>> 728894aacf327bab1aa5c106c2b7c858cfc15142
