@@ -249,7 +249,6 @@ body .sacola-dica, .imagemdobrasil {
     grid-template-columns: 1fr 1fr;
 }
 
-<<<<<<< HEAD
 /*      Produtos gerais      */
 
 #main-produtosgerais{
@@ -288,12 +287,10 @@ body .sacola-dica, .imagemdobrasil {
 
 /*      Produtos gerais      */
 
-=======
 /*---------------------------------LARA 1--------------------------------------*/
 
 
 /*      Produtos gerais      */
->>>>>>> b3c635aee6908436091a872baa9643666d4b2e09
     #header-produtosGerais{
         background-color: var(--cor-topo);
         display: grid;
@@ -372,12 +369,6 @@ main .imagensEdescricao {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
-<<<<<<< HEAD
-
-/*------------------------------------lETICIA LINDA--------------------------------------------------*/
-=======
->>>>>>> b3c635aee6908436091a872baa9643666d4b2e09
-
 
 main .descricaoEpreco {
     text-align: center;
@@ -488,9 +479,6 @@ main .produto01,
 
 .promocao-index {
     display: flex;
-<<<<<<< HEAD
-}
-=======
     justify-content: space-around;
 }
 
@@ -551,4 +539,3 @@ main .produto01,
 .fileiras .produtos-fileiras img {
     max-width: 100%;
 }
->>>>>>> b3c635aee6908436091a872baa9643666d4b2e09
