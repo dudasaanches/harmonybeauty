@@ -482,17 +482,16 @@ main .produto01,
     text-align: center;
 }
 
-<<<<<<< HEAD
 .botao-dicas a {
     text-decoration: none;
     font-size: 35px;
     color: var(--cor-verdeescuro);
     text-shadow: 3px 3px var(--cor-bloco);
-=======
+}
+
 .promocao-index {
     display: flex;
     justify-content: space-around;
->>>>>>> c0bc49a38315ff94881c0372a30fc23fc0ac38d1
 }
 
 /*---------------------------------------TERCEIRA SECTION-LETICIA--------------------------------------------*/
@@ -551,8 +550,4 @@ main .produto01,
 
 .fileiras .produtos-fileiras img {
     max-width: 100%;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> c0bc49a38315ff94881c0372a30fc23fc0ac38d1
