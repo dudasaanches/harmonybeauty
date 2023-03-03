@@ -434,6 +434,24 @@ main .produto01,
     margin: 20px;
 }
 
+.button-compra{
+    align-items: center;
+}
+
+.button-compra .botao{
+    background-color: #678562;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.botaozin{
+    background-color: #678562;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
 /*----------------------------------lele-------------------------------------*/
 
 .logo-index {
