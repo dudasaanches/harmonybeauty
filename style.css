@@ -10,9 +10,9 @@
     box-sizing: border-box;
 }
 
-/* img {
+img {
     max-width: 100%;
-} */
+}
 
 :root {
     --cor-topo: #98C1A8;
