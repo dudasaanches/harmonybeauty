@@ -23,6 +23,7 @@
     --cor-verdeescuro: #678562;
     --cor-branca: white;
     --cor-preta: black;
+    --cor-verdao: #21461B;
 }
 
 header {
@@ -395,6 +396,7 @@ main .produto01,
     margin: 20px;
 }
 
+/*----------------------------------lele-------------------------------------*/
 
 .logo-index {
     font-size: 30px;
@@ -437,21 +439,27 @@ main .produto01,
 }
 
 .kit {
-    color: var(--cor-verdinho);
+    color: var(--cor-verdao);
     line-height: 56px;
     padding: 15px 0px;
 }
 
 .valor {
-    color: var(--cor-verdinho);
+    color: var(--cor-verdao);
     padding: 0px 0px 50px;
 }
 
 .botaopromo {
     background-color: var(--cor-bloco);
-    color: var(--cor-verdeescuro);
+    color: var(--cor-verdao);
     padding: 10px;
     border-radius: 20px;
+    text-decoration: none;
+}
+
+.imgpromocao-index {
+    display: flex;
+    justify-content: space-around;
 }
 
 /*-----------------------------------SEGUNDA SECTION - LETICIA-----------------------------------------------*/
@@ -470,16 +478,15 @@ main .produto01,
     padding: 30px;
 }
 
-.texto-dicas {
-    font-size: 35px;
+.botao-dicas{
     text-align: center;
-    color: var(--cor-verdeescuro);
-    text-shadow: 3px 3px var(--cor-bloco);
 }
 
-.promocao-index {
-    display: flex;
-    justify-content: space-around;
+.botao-dicas a {
+    text-decoration: none;
+    font-size: 35px;
+    color: var(--cor-verdeescuro);
+    text-shadow: 3px 3px var(--cor-bloco);
 }
 
 /*---------------------------------------TERCEIRA SECTION-LETICIA--------------------------------------------*/
