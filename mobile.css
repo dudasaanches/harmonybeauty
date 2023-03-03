@@ -31,10 +31,8 @@
     }
 }
 
-<<<<<<< HEAD
-@media (max-width: 320px) {
-    .dicas
-=======
+
+
 @media (max-width: 853px) {
     .brasil {
         display: none;
@@ -70,6 +68,11 @@
         justify-content: center;
         flex-direction: column;
     }
+}
+
+@media (max-width:519px) {
+    header .nav-dicas{
+        flex-direction: column;
+    }
     
->>>>>>> b3c635aee6908436091a872baa9643666d4b2e09
 }
