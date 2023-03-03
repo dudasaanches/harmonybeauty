@@ -23,6 +23,8 @@
     --cor-verdeescuro: #678562;
     --cor-branca: white;
     --cor-preta: black;
+    --cor-barradepesquisa: #DBDFDA;
+    --cor-verdao: #21461B;
 }
 
 header {
@@ -249,6 +251,8 @@ body .sacola-dica, .imagemdobrasil {
     grid-template-columns: 1fr 1fr;
 }
 
+
+/*---------------------------------LARA--------------------------------------*/
 /*      Produtos gerais      */
 
 #main-produtosgerais{
@@ -307,6 +311,41 @@ body .sacola-dica, .imagemdobrasil {
     justify-content: space-between;
     padding: 20px;
     align-items: center;
+}
+
+
+#main-produtosgerais .pesquisa-produtosGerais #pesquisa{
+    background-color:transparent;
+    height: 50px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 40px;
+    border:none;
+    padding: 0px 15px;
+}
+
+.produtos-recomendados{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color:#678562;
+}
+
+
+.pesquisa-produtosGerais {
+    background: #dbdfda;
+    width: 311px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 100px;
+    margin: 31px auto;
+}
+
+#main-produtosgerais .pesquisa-produtosGerais button {
+background-color: transparent;
+border: none;
 }
 
 
@@ -395,6 +434,7 @@ main .produto01,
     margin: 20px;
 }
 
+/*----------------------------------lele-------------------------------------*/
 
 .logo-index {
     font-size: 30px;
@@ -437,21 +477,27 @@ main .produto01,
 }
 
 .kit {
-    color: var(--cor-verdinho);
+    color: var(--cor-verdao);
     line-height: 56px;
     padding: 15px 0px;
 }
 
 .valor {
-    color: var(--cor-verdinho);
+    color: var(--cor-verdao);
     padding: 0px 0px 50px;
 }
 
 .botaopromo {
     background-color: var(--cor-bloco);
-    color: var(--cor-verdeescuro);
+    color: var(--cor-verdao);
     padding: 10px;
     border-radius: 20px;
+    text-decoration: none;
+}
+
+.imgpromocao-index {
+    display: flex;
+    justify-content: space-around;
 }
 
 /*-----------------------------------SEGUNDA SECTION - LETICIA-----------------------------------------------*/
@@ -470,9 +516,13 @@ main .produto01,
     padding: 30px;
 }
 
-.texto-dicas {
-    font-size: 35px;
+.botao-dicas{
     text-align: center;
+}
+
+.botao-dicas a {
+    text-decoration: none;
+    font-size: 35px;
     color: var(--cor-verdeescuro);
     text-shadow: 3px 3px var(--cor-bloco);
 }
