@@ -576,10 +576,15 @@ main .produto01,
 .fileiras .produtos-fileiras {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
+    gap: 126px;
     text-align: center;
 }
 
 .fileiras .produtos-fileiras img {
-    max-width: 100%;
+    max-width: 300px;
+}
+
+.descricaoProduto {
+    display: flex;
+    align-items: center;
 }
