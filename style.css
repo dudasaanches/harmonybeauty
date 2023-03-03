@@ -257,16 +257,23 @@ body .sacola-dica,
 }
 
 #main-produtosgerais .pesquisa-produtosGerais #pesquisa{
-    background-color:var(--cor-barradepesquisa);
+    background-color:transparent;
     height: 50px;
     width: 250px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-radius: 40px;
-    border: 1px solid #678562;
+    border:none;
     padding: 0px 15px;
 }
+
+.produtos-recomendados{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color:#678562;
+}
+
 
 .pesquisa-produtosGerais {
     background: #dbdfda;
@@ -275,10 +282,12 @@ body .sacola-dica,
     align-items: center;
     border: 1px solid #000;
     border-radius: 100px;
+    margin: 31px auto;
 }
 
-.pesquisa-produtosGerais input {
-
+#main-produtosgerais .pesquisa-produtosGerais button {
+background-color: transparent;
+border: none;
 }
 
 .pesquisa-produtosGerais 
