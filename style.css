@@ -442,12 +442,6 @@ main .produto01,
     text-shadow: 3px 3px var(--cor-preta);
 }
 
-.header-index nav a {
-    background-color: var(--cor-verdeescuro);
-    color: var(--cor-bloco);
-    padding: 10px;
-    border-radius: 20px;
-}
 
 .promocao-index {
     display: grid;
