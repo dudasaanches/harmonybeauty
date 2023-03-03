@@ -142,3 +142,16 @@
         padding: 0px 15px;
     }
 }
+
+@media (max-width:1028px) {
+    .sugestoes .imagensEdescricao{
+        display: grid;
+        grid-template-rows: 1fr;
+        align-items: center;
+        max-width: 100%;
+    }
+    main .imagensEdescricao {
+        display: block;
+        padding: 5px;
+    }
+}
