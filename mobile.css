@@ -106,3 +106,42 @@
         justify-content: center;
     }
 }
+@media (max-width:1028px){
+    #main-produtosgerais .fileiras {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .descricaoProduto {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fileiras .produtos-fileiras {
+        display: block;
+        grid-template-rows: 1fr;
+    }
+
+    .pesquisa-produtosGerais {
+        background: #dbdfda;
+        width: 227px;
+        display: flex;
+        align-items: center;
+        border: 1px solid #000;
+        border-radius: 100px;
+        margin: 31px auto;
+    }
+
+    #main-produtosgerais .pesquisa-produtosGerais #pesquisa {
+        background-color: transparent;
+        height: 50px;
+        width: 158px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 40px;
+        border: none;
+        padding: 0px 15px;
+    }
+}
